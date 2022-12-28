@@ -1,0 +1,8 @@
+{% extends 'putri.html' %} 
+
+{% block Restoran %} 
+
+    {% for satu in makanan %}
+        <li>{{ satu.pesanan }}</li>
+    {% endfor %} 
+{% endblock %} 
